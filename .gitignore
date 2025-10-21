@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class$
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Mithya Project Specific ---
+
+# Raw and processed data.
+# WARNING: Do not add this if you use Git LFS for your data.
+# For this project, we assume data is downloaded, not versioned.
+data/ff_raw_videos/
+data/processed_faces/
+data/ff_dataset.csv
+
+# Trained model weights
+# These are large binary files and should not be in Git.
+weights/
+*.pth
+*.safetensors
+
+# Inference results
+results/
+
+# Logs and cache
+logs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
